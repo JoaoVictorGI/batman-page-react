@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'banner': "url('./src/assets/batman-banner.webp')",
-        'pattison': "url('./src/assets/pattison.webp')" ,
-        'zoe': "url('./src/assets/zoe.webp')" ,
-        'jeffrey': "url('./src/assets/jeffrey.webp')" ,
+        'banner': "url('/src/assets/batman-banner.webp')",
+        'pattison': "url('/src/assets/pattison.webp')" ,
+        'zoe': "url('/src/assets/zoe.webp')" ,
+        'jeffrey': "url('/src/assets/jeffrey.webp')" ,
       },
       fontFamily: {
         'kdam': ["Kdam Thmor Pro", "monospace"],

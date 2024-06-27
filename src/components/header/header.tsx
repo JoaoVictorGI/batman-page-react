@@ -1,4 +1,4 @@
-import logo from "../../../src/assets/batman-logo.webp";
+import logo from "../../assets/batman-logo.webp";
 
 export function Header() {
   return (
