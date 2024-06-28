@@ -1,4 +1,4 @@
-import { YoutubeEmbed } from "../iframe/iframe";
+import { YoutubeEmbed } from "../iframe/iframe.tsx";
 
 export function Trailer() {
   return (
