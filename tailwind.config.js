@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
+        'contatos-background': "url('/src/assets/background-contatos.webp')",
         'banner': "url('/src/assets/batman-banner.webp')",
         'pattison': "url('/src/assets/pattison.webp')" ,
         'zoe': "url('/src/assets/zoe.webp')" ,
