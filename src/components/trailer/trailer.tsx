@@ -1,3 +1,4 @@
+import { Button } from "../button/button.tsx";
 import { YoutubeEmbed } from "../iframe/iframe.tsx";
 
 export function Trailer() {
@@ -19,12 +20,7 @@ export function Trailer() {
             aliados confiáveis, o vigilante solitário se estabelece como a
             personificação da vingança para a população.
           </p>
-          <button
-            style={{ transition: "0.8s", border: "none", outline: "none" }}
-            className="w-48 h-14 bg-red-600 text-white py-2 rounded cursor-pointer text-lg flex justify-center items-center font-bold mt-6 hover:bg-white hover:text-black"
-          >
-            Comprar Ingresso
-          </button>
+          <Button name="Comprar Ingresso" />
         </div>
       </div>
     </div>
