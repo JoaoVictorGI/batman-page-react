@@ -9,11 +9,11 @@ export function App() {
   return (
     <>
       <Header />
-        <Routes>
-          <Route path="/batman-page" element={<Home />}></Route>
-          <Route path="/contacts" element={<Contacts />}></Route>
-          <Route path="/photos" element={<Photos />}></Route>
-        </Routes>
+      <Routes>
+        <Route path="/batman-page/" element={<Home />}></Route>
+        <Route path="/contacts/" element={<Contacts />}></Route>
+        <Route path="/photos/" element={<Photos />}></Route>
+      </Routes>
       <Footer />
     </>
   );
