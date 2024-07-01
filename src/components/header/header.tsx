@@ -23,22 +23,14 @@ export function Header() {
               Contatos
             </li>
           </Link>
-          <a href="">
+          <Link to="/photos">
             <li
               style={{ transition: "0.5s" }}
               className="list-none text-sky-50 cursor-pointer text-lg hover:text-red-600"
             >
               Fotos
             </li>
-          </a>
-          <a href="">
-            <li
-              style={{ transition: "0.5s" }}
-              className="list-none text-sky-50 cursor-pointer text-lg hover:text-red-600"
-            >
-              Comentários
-            </li>
-          </a>
+          </Link>
         </ul>
       </nav>
     </header>
