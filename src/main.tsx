@@ -7,7 +7,7 @@ import { App } from "./App.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/batman-page-react">
+    <BrowserRouter basename="/batman-page-react/">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
