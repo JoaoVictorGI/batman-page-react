@@ -4,7 +4,7 @@ import { YoutubeEmbed } from "../iframe/iframe.tsx";
 export function Trailer() {
   return (
     <div id="w-full h-96 flex justify-center">
-      <div className="w-11/12 flex flex-col md:flex-row items-center justify-between">
+      <div className="w-11/12 max-w-full flex flex-col md:flex-row items-center justify-between">
         <YoutubeEmbed embedId="mqqft2x_Aa4" />
         <div className="w-full md:w-1/2 flex items-center md:items-start flex-col justify-between ml-7">
           <p className="text-white text-lg w-4/6">
