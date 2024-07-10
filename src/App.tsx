@@ -10,7 +10,7 @@ export function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/batman-page/" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/contacts/" element={<Contacts />}></Route>
         <Route path="/photos/" element={<Photos />}></Route>
       </Routes>
