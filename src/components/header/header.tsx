@@ -5,7 +5,7 @@ export function Header() {
   return (
     <header className="h-24 flex justify-around items-center">
       <img className="w-40 h-auto" src={logo} alt="logo" />
-      <nav className="w-3/5">
+      <nav className="w-3/5 hidden md:block invisible md:visible">
         <ul className="flex w-full justify-between">
           <Link to="/">
             <li
