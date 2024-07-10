@@ -1,7 +1,7 @@
 {
   "name": "batman",
   "homepage": "https://joaovictorgi.github.io/batman-page-react",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
