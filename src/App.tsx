@@ -10,12 +10,12 @@ export function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/batman-page-react/home/" element={<Home />}></Route>
+        <Route path="/home/" element={<Home />}></Route>
         <Route
-          path="/batman-page-react/contacts/"
+          path="/contacts/"
           element={<Contacts />}
         ></Route>
-        <Route path="/batman-page-react/photos/" element={<Photos />}></Route>
+        <Route path="/photos/" element={<Photos />}></Route>
       </Routes>
       <Footer />
     </>
