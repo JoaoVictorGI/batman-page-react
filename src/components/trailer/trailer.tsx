@@ -2,8 +2,8 @@ import { Button } from "../button/button.tsx";
 
 export function Trailer() {
   return (
-    <div id="w-full h-96 flex justify-center">
-      <div className="w-11/12 max-w-full flex flex-col md:flex-row items-center justify-between">
+    <div className="w-full h-96 flex justify-center">
+      <div className="w-11/12 max-w-full flex flex-col md:flex-row items-center justify-between md:justify-center">
         <iframe
           width="560"
           height="315"
