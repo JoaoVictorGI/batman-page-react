@@ -16,21 +16,21 @@ This project is a port of https://github.com/JoaoVictorGI/movie-display-page to 
 ## How to run
 
 1. Install pnpm: https://pnpm.io/pt/installation
-2. Open a terminal and run the project: 
-    ```shell
-    npm run dev
-    ```
+2. Open a terminal and run the project:
+   ```shell
+   pnpm run dev
+   ```
 
 ## How to build and preview
 
-1. Open a terminal and execute: 
-    ```shell
-    npm run build
-    ```
+1. Open a terminal and execute:
+   ```shell
+   pnpm run build
+   ```
 2. And then preview:
-    ```shell
-    npm run preview 
-    ```
+   ```shell
+   pnpm run preview
+   ```
 
 ## License
 
