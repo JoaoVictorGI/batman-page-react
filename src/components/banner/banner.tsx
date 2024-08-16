@@ -1,5 +1,5 @@
 export function Banner() {
   return (
-    <div className="bg-banner bg-[40%] md:bg-[50% 50%] bg-cover w-full h-[600px]"></div>
-  );
+    <div className="md:bg-[50% 50%] h-[600px] w-full bg-banner bg-cover bg-[40%]"></div>
+  )
 }

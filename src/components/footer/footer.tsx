@@ -1,16 +1,16 @@
-import { Link } from "react-router-dom";
-import logo from "../../../src/assets/batman-logo.webp";
+import { Link } from "react-router-dom"
+import logo from "../../../src/assets/batman-logo.webp"
 
 export function Footer() {
   return (
-    <footer className="h-72 mt-12 flex flex-col items-center justify-around">
-      <img className="object-contain w-40 h-auto" src={logo} alt="logo" />
-      <nav className="w-3/5 block md:hidden visible md:invisible">
-        <ul className="flex flex-col items-center w-full justify-between">
+    <footer className="mt-12 flex h-72 flex-col items-center justify-around">
+      <img className="h-auto w-40 object-contain" src={logo} alt="logo" />
+      <nav className="visible block w-3/5 md:invisible md:hidden">
+        <ul className="flex w-full flex-col items-center justify-between">
           <Link to="/">
             <li
               style={{ transition: "0.5s" }}
-              className="list-none pb-2 text-sky-50 cursor-pointer text-lg hover:text-red-600"
+              className="cursor-pointer list-none pb-2 text-lg text-sky-50 hover:text-red-600"
             >
               Home
             </li>
@@ -18,7 +18,7 @@ export function Footer() {
           <Link to="/contacts/">
             <li
               style={{ transition: "0.5s" }}
-              className="list-none pb-2 text-sky-50 cursor-pointer text-lg hover:text-red-600"
+              className="cursor-pointer list-none pb-2 text-lg text-sky-50 hover:text-red-600"
             >
               Contatos
             </li>
@@ -26,7 +26,7 @@ export function Footer() {
           <Link to="/photos/">
             <li
               style={{ transition: "0.5s" }}
-              className="list-none pb-2 text-sky-50 cursor-pointer text-lg hover:text-red-600"
+              className="cursor-pointer list-none pb-2 text-lg text-sky-50 hover:text-red-600"
             >
               Fotos
             </li>
@@ -35,5 +35,5 @@ export function Footer() {
       </nav>
       <span className="text-white">Desenvolvido por João Victor</span>
     </footer>
-  );
+  )
 }

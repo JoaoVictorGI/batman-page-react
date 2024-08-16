@@ -1,6 +1,6 @@
-import { ActorCards } from "../components/actor-cards/actor-cards.tsx";
-import { Banner } from "../components/banner/banner.tsx";
-import { Trailer } from "../components/trailer/trailer.tsx";
+import { ActorCards } from "../components/actor-cards/actor-cards.tsx"
+import { Banner } from "../components/banner/banner.tsx"
+import { Trailer } from "../components/trailer/trailer.tsx"
 
 export function Home() {
   return (
@@ -9,5 +9,5 @@ export function Home() {
       <Trailer />
       <ActorCards />
     </>
-  );
+  )
 }

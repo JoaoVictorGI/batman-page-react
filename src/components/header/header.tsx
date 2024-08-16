@@ -1,16 +1,16 @@
-import logo from "../../assets/batman-logo.webp";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
+import logo from "../../assets/batman-logo.webp"
 
 export function Header() {
   return (
-    <header className="h-24 flex justify-around items-center">
-      <img className="w-40 h-auto" src={logo} alt="logo" />
-      <nav className="w-3/5 hidden md:block invisible md:visible">
+    <header className="flex h-24 items-center justify-around">
+      <img className="h-auto w-40" src={logo} alt="logo" />
+      <nav className="invisible hidden w-3/5 md:visible md:block">
         <ul className="flex w-full justify-between">
           <Link to="/">
             <li
               style={{ transition: "0.5s" }}
-              className="list-none text-sky-50 cursor-pointer text-lg hover:text-red-600"
+              className="cursor-pointer list-none text-lg text-sky-50 hover:text-red-600"
             >
               Home
             </li>
@@ -18,7 +18,7 @@ export function Header() {
           <Link to="/contacts/">
             <li
               style={{ transition: "0.5s" }}
-              className="list-none text-sky-50 cursor-pointer text-lg hover:text-red-600"
+              className="cursor-pointer list-none text-lg text-sky-50 hover:text-red-600"
             >
               Contatos
             </li>
@@ -26,7 +26,7 @@ export function Header() {
           <Link to="/photos/">
             <li
               style={{ transition: "0.5s" }}
-              className="list-none text-sky-50 cursor-pointer text-lg hover:text-red-600"
+              className="cursor-pointer list-none text-lg text-sky-50 hover:text-red-600"
             >
               Fotos
             </li>
@@ -34,5 +34,5 @@ export function Header() {
         </ul>
       </nav>
     </header>
-  );
+  )
 }

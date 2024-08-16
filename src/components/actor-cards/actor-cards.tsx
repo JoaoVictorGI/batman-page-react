@@ -1,13 +1,13 @@
 export function ActorCards() {
   return (
-    <div className="w-full flex justify-center mt-24">
-      <div className="w-full flex justify-center flex-wrap grid-cols-3 gap-x-5 gap-y-5">
+    <div className="mt-24 flex w-full justify-center">
+      <div className="flex w-full grid-cols-3 flex-wrap justify-center gap-x-5 gap-y-5">
         <div
           style={{
             transition: "1s",
             textShadow: "0 0 2px #000, 0 0 2px #000, 0 0 2px #000",
           }}
-          className="bg-pattison w-72 md:w-1/4 h-[600px] bg-center bg-cover bg-[50% 50%] rounded cursor-pointer flex flex-col justify-end pb-5 pl-2.5 text-white text-lg hover:scale-105"
+          className="bg-[50% 50%] flex h-[600px] w-72 cursor-pointer flex-col justify-end rounded bg-pattison bg-cover bg-center pb-5 pl-2.5 text-lg text-white hover:scale-105 md:w-1/4"
         >
           Robert Pattison - Batman
         </div>
@@ -16,7 +16,7 @@ export function ActorCards() {
             transition: "1s",
             textShadow: "0 0 2px #000, 0 0 2px #000, 0 0 2px #000",
           }}
-          className="bg-zoe w-72 md:w-1/4 h-[600px] bg-center bg-cover bg-[50% 50%] rounded cursor-pointer flex flex-col justify-end pb-5 pl-2.5 text-white text-lg hover:scale-105"
+          className="bg-[50% 50%] flex h-[600px] w-72 cursor-pointer flex-col justify-end rounded bg-zoe bg-cover bg-center pb-5 pl-2.5 text-lg text-white hover:scale-105 md:w-1/4"
         >
           Zoe Kravitz - Mulher Gato
         </div>
@@ -25,11 +25,11 @@ export function ActorCards() {
             transition: "1s",
             textShadow: "0 0 2px #000, 0 0 2px #000, 0 0 2px #000",
           }}
-          className="bg-jeffrey w-72 md:w-1/4 h-[600px] bg-center bg-cover bg-[50% 50%] rounded cursor-pointer flex flex-col justify-end pb-5 pl-2.5 text-white text-lg hover:scale-105"
+          className="bg-[50% 50%] flex h-[600px] w-72 cursor-pointer flex-col justify-end rounded bg-jeffrey bg-cover bg-center pb-5 pl-2.5 text-lg text-white hover:scale-105 md:w-1/4"
         >
           Jeffrey Wright - Gordon
         </div>
       </div>
     </div>
-  );
+  )
 }
