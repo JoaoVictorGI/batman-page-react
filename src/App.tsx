@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes } from "react-router"
 import { Footer } from "./components/footer/footer.tsx"
 import { Header } from "./components/header/header.tsx"
 import { Contacts } from "./pages/Contacts.tsx"

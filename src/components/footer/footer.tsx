@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router"
 import logo from "../../../src/assets/batman-logo.webp"
 
 export function Footer() {
