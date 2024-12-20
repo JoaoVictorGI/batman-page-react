@@ -9,6 +9,7 @@
     "dev": "react-router dev",
     "build": "tsc -b && react-router build",
     "lint": "biome check --write ./src",
+    "start": "cross-env NODE_ENV=production react-router-serve ./build/server/index.js",
     "format": "biome format --write ./src",
     "preview": "vite preview"
   },
