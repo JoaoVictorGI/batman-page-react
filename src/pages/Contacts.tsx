@@ -1,12 +1,9 @@
-import { Button } from "../components/button/button"
-import { Footer } from "../components/footer/footer"
-import { Header } from "../components/header/header"
+import { Button } from '../components/button/button'
+import { Footer } from '../components/footer/footer'
+import { Header } from '../components/header/header'
+import { loader } from '../loader'
 
-export async function loader() {
-  return {
-    title: "Contacts page",
-  }
-}
+loader('Contacts page')
 
 export default function Contacts() {
   return (
@@ -49,7 +46,8 @@ export default function Contacts() {
                 rows={20}
                 cols={30}
                 placeholder="Digite aqui sua dúvida"
-              ></textarea>
+              >
+              </textarea>
             </label>
 
             <Button name="Enviar" />

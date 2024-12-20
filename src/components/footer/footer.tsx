@@ -1,5 +1,5 @@
-import { Link } from "react-router"
-import logo from "../../../src/assets/batman-logo.webp"
+import { Link } from 'react-router'
+import logo from '../../../src/assets/batman-logo.webp'
 
 export function Footer() {
   return (
@@ -9,7 +9,7 @@ export function Footer() {
         <ul className="flex w-full flex-col items-center justify-between">
           <Link to="/">
             <li
-              style={{ transition: "0.5s" }}
+              style={{ transition: '0.5s' }}
               className="cursor-pointer list-none pb-2 text-lg text-sky-50 hover:text-red-600"
             >
               Home
@@ -17,7 +17,7 @@ export function Footer() {
           </Link>
           <Link to="/contacts/">
             <li
-              style={{ transition: "0.5s" }}
+              style={{ transition: '0.5s' }}
               className="cursor-pointer list-none pb-2 text-lg text-sky-50 hover:text-red-600"
             >
               Contatos
@@ -25,7 +25,7 @@ export function Footer() {
           </Link>
           <Link to="/photos/">
             <li
-              style={{ transition: "0.5s" }}
+              style={{ transition: '0.5s' }}
               className="cursor-pointer list-none pb-2 text-lg text-sky-50 hover:text-red-600"
             >
               Fotos

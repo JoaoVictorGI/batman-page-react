@@ -1,14 +1,11 @@
-import { ActorCards } from "../components/actor-cards/actor-cards.tsx"
-import { Banner } from "../components/banner/banner.tsx"
-import { Footer } from "../components/footer/footer.tsx"
-import { Header } from "../components/header/header.tsx"
-import { Trailer } from "../components/trailer/trailer.tsx"
+import { ActorCards } from '../components/actor-cards/actor-cards.tsx'
+import { Banner } from '../components/banner/banner.tsx'
+import { Footer } from '../components/footer/footer.tsx'
+import { Header } from '../components/header/header.tsx'
+import { Trailer } from '../components/trailer/trailer.tsx'
+import { loader } from '../loader.ts'
 
-export async function loader() {
-  return {
-    title: "Homepage",
-  }
-}
+loader('Homepage')
 
 export default function Home() {
   return (

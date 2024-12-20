@@ -1,4 +1,4 @@
-import { Button } from "../button/button.tsx"
+import { Button } from '../button/button.tsx'
 
 export function Trailer() {
   return (
@@ -13,7 +13,10 @@ export function Trailer() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
-        ></iframe>
+          // eslint-disable-next-line react-dom/no-unsafe-iframe-sandbox
+          sandbox="allow-scripts allow-same-origin"
+        >
+        </iframe>
         <div className="ml-7 flex w-full flex-col items-center justify-between md:w-1/2 md:items-start">
           <p className="w-4/6 text-lg text-white">
             Após dois anos espreitando as ruas como Batman, Bruce Wayne se
