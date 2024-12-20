@@ -1,6 +1,16 @@
-export function Photos() {
+import { Footer } from "../components/footer/footer"
+import { Header } from "../components/header/header"
+
+export async function loader() {
+  return {
+    title: "Photos page",
+  }
+}
+
+export default function Photos() {
   return (
     <>
+      <Header />
       <div className="mt-12 flex w-full justify-center">
         <div className="flex w-4/5 grid-cols-3 flex-wrap justify-center gap-x-5 gap-y-5">
           <div
@@ -29,6 +39,7 @@ export function Photos() {
           ></div>
         </div>
       </div>
+      <Footer />
     </>
   )
 }

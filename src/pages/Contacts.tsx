@@ -1,8 +1,17 @@
 import { Button } from "../components/button/button"
+import { Footer } from "../components/footer/footer"
+import { Header } from "../components/header/header"
 
-export function Contacts() {
+export async function loader() {
+  return {
+    title: "Contacts page",
+  }
+}
+
+export default function Contacts() {
   return (
     <>
+      <Header />
       <div className="bg-[50% 50%] h-[800px] w-full bg-contatos-background bg-cover">
         <section className="flex h-[800px] w-full flex-col items-center justify-center bg-opacity-0 md:items-start md:pl-36">
           <h1 className="bg-opacity-0 text-2xl font-bold text-white">
@@ -47,6 +56,7 @@ export function Contacts() {
           </form>
         </section>
       </div>
+      <Footer />
     </>
   )
 }
